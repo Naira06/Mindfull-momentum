@@ -69,7 +69,7 @@ public class RandomDigit : MonoBehaviour
 
     private void GenerateRandomDigit()
     {
-        currentDigit = Random.Range(1, 5);                               // Generate a random digit between 1 and 9 (inclusive)
+        currentDigit = Random.Range(1, 10);                               // Generate a random digit between 1 and 9 (inclusive)
         digitText.text = currentDigit.ToString();                          // Display the current digit in the digitText component
         ToggleDigitVisibility();                                           // Toggle the visibility of the digit and the masked circle
     }  
